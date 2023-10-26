@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designe The Card Image</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: #e9e9e9;
+        }
+
+        .container {
+            display: block;
+            width: 340px;
+            height: 505px;
+            margin: 60px auto;
+            border-radius: 15px;
+            background-color: white;
+            border: 1px solid lightblue;
+            box-shadow: 1px 1px 8px gray;
+        }
+
+        .top {
+            display: block;
+            border-radius: 15px;
+        }
+
+        img {
+            display: block;
+            margin: -5px auto;
+            width: 315px;
+            border-radius: 14px;
+            transition: ease-in-out 0.2s;
+        }
+
+        img:hover {
+            width: 320px;
+            display: block;
+            cursor: pointer;
+            margin: -5px auto;
+            border-radius: 14px;
+            box-shadow: 3px 3px 10px gray;
+            transition: ease 0.89s;
+        }
+
+        .imga {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .button {
+            display: block;
+            width: 200px;
+            margin-left: 17px;
+        }
+
+        .btn {
+            color: gray;
+            padding: 2px;
+            border: 1px solid gray;
+            border-radius: 15px;
+            margin-top: 12px;
+        }
+
+        .btn:hover {
+            margin-top: 10px;
+            box-shadow: 1px 1px 3px gray;
+        }
+
+        a {
+            text-decoration: none;
+            margin: 5px;
+        }
+
+        .a {
+            color: gray;
+        }
+
+        .bottom {
+            /* border: 2px solid red; */
+            width: 340px;
+            height: 133px;
+            margin-top: 10px;
+            margin-left: 17px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .bottom h2 {
+            font-size: 29px;
+            color: rgb(55, 51, 51);
+        }
+
+        .bottom p {
+            width: 306px;
+            font-size: 14px;
+            margin-top: 10px;
+            display: flex;
+            text-align: justify;
+        }
+
+        .button1 {
+            width: 200px;
+            margin: 1px auto;
+        }
+
+        .btn1 {
+            display: block;
+            margin: 13px auto;
+            width: 100px;
+            height: 40px;
+            border: none;
+            border-radius: 150px;
+            background-color: #87cefa38;
+        }
+
+        .btn1:hover {
+            background-color: #62a9d638;
+        }
+        
+        .a1 {
+            color: #3388ff;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .a1:hover{
+            color: #2a75de;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <a class="Imga" href="https://i.ibb.co/KDpwYFX/1.jpg" target="_blank"><img
+                    src="https://i.ibb.co/KDpwYFX/1.jpg" alt="404 Not Found"></a>
+        </div>
+
+        <div class="button">
+
+            <button class="btn">
+                <a class="a" href="https://www.pinterest.com/search/pins/?q=nature&rs=typed" target="_blank">Nature</a>
+            </button>
+
+            <button class="btn">
+                <a class="a" href="https://unsplash.com/s/photos/lake" target="_blank">Lake</a>
+            </button>
+
+        </div>
+
+        <div class="bottom">
+
+            <h2>Lago a Braies</h2>
+
+            <p>Lago di Braies, German is a natural lake in the Prags Dolomites in South Tyrol, Italy. It belongs to the
+                municipality of Prags which is located in the Prags Valley.</p>
+
+        </div>
+
+        <div class="button1">
+
+            <button class="btn1">
+
+                <a href="https://github.com/SayedHasanDipto" target="_blank" class="a1">Read More</a>
+
+            </button>
+
+        </div>
+    </div>
+</body>
+
+</html>
